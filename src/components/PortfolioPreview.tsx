@@ -45,9 +45,9 @@ export default function PortfolioPreview() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between mb-14 gap-6">
           <AnimatedSection>
             <div className="flex items-center gap-4 mb-5">
-              <div className="w-8 h-px bg-[var(--teal)]" />
+              <div className="w-8 h-px bg-(--teal)" />
               <span
-                className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                className="text-(--teal) text-[12px] font-semibold tracking-[0.4em] uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
                 Our Work

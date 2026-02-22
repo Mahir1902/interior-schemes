@@ -50,7 +50,7 @@ export default function AboutSection() {
             <div className="flex items-center gap-4 mb-5">
               <div className="w-8 h-px bg-[var(--teal)]" />
               <span
-                className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                className="text-[var(--teal)] text-[12px] font-semibold tracking-[0.4em] uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
                 About Us
@@ -108,7 +108,7 @@ export default function AboutSection() {
 
             <Link
               href="/about"
-              className="inline-flex items-center gap-4 text-[var(--charcoal)] text-[10px] tracking-[0.35em] uppercase group hover:text-[var(--teal)] transition-colors duration-300"
+              className="inline-flex items-center gap-4 text-(--charcoal) text-[10px] tracking-[0.35em] uppercase group hover:text-[var(--teal)] transition-colors duration-300"
               style={{ fontFamily: 'var(--font-body)' }}
             >
               Learn More About Us

@@ -38,7 +38,7 @@ export default function ServicesSection() {
             <div className="flex items-center gap-4 mb-5">
               <div className="w-8 h-px bg-[var(--teal)]" />
               <span
-                className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                className="text-[var(--teal)] text-[12px] tracking-[0.4em] font-semibold uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
                 Our Services

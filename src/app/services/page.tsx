@@ -90,7 +90,7 @@ export default function ServicesPage() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-12 w-full">
           <AnimatedSection>
             <span
-              className="text-[var(--teal-light)] text-[10px] tracking-[0.4em] uppercase block mb-3"
+              className="text-[var(--teal-light)] text-[12px] font-semibold tracking-[0.4em] uppercase block mb-3"
               style={{ fontFamily: 'var(--font-body)' }}
             >
               What We Offer
@@ -183,7 +183,7 @@ export default function ServicesPage() {
             <div className="flex items-center justify-center gap-4 mb-5">
               <div className="w-8 h-px bg-[var(--teal)]" />
               <span
-                className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                className="text-[var(--teal)] text-[12px] font-semibold tracking-[0.4em] uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
                 The Process

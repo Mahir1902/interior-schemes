@@ -18,10 +18,10 @@ export default function CTASection() {
       <div className="relative max-w-3xl mx-auto px-6 lg:px-12 text-center">
         <AnimatedSection>
           <span
-            className="text-[var(--teal-light)] text-[10px] tracking-[0.5em] uppercase block mb-6"
+            className="text-[var(--teal-light)] text-[12px] font-semibold tracking-[0.5em] uppercase block mb-6"
             style={{ fontFamily: 'var(--font-body)' }}
           >
-            Let's Create Something Beautiful
+            Let&apos;s Create Something Beautiful
           </span>
           <h2
             className="text-white mb-8 leading-none"

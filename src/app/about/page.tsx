@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div className="relative max-w-7xl mx-auto px-6 lg:px-12 w-full">
           <AnimatedSection>
             <span
-              className="text-[var(--teal-light)] text-[10px] tracking-[0.4em] uppercase block mb-3"
+              className="text-[var(--teal-light)] text-[12px] font-semibold tracking-[0.4em] uppercase block mb-3"
               style={{ fontFamily: 'var(--font-body)' }}
             >
               Our Story
@@ -55,7 +55,7 @@ export default function AboutPage() {
               <div className="flex items-center gap-4 mb-5">
                 <div className="w-8 h-px bg-[var(--teal)]" />
                 <span
-                  className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                  className="text-[var(--teal)] text-[12px] font-semibold tracking-[0.4em] uppercase"
                   style={{ fontFamily: 'var(--font-body)' }}
                 >
                   Who We Are
@@ -128,7 +128,7 @@ export default function AboutPage() {
             <div className="flex items-center justify-center gap-4 mb-5">
               <div className="w-8 h-px bg-[var(--teal)]" />
               <span
-                className="text-[var(--teal)] text-[10px] tracking-[0.4em] uppercase"
+                className="text-[var(--teal)] text-[12px] font-semibold tracking-[0.4em] uppercase"
                 style={{ fontFamily: 'var(--font-body)' }}
               >
                 Our Values
@@ -167,7 +167,7 @@ export default function AboutPage() {
               <AnimatedSection key={v.number} delay={i * 0.12}>
                 <div className="bg-[var(--sand)] p-10 lg:p-14 h-full">
                   <div
-                    className="text-[var(--teal)] text-[10px] tracking-[0.35em] uppercase mb-5"
+                    className="text-[var(--teal)] text-[12px] font-semibold tracking-[0.35em] uppercase mb-5"
                     style={{ fontFamily: 'var(--font-body)' }}
                   >
                     {v.number}
