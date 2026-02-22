@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/Users/mahirhaque/Documents/Coding/GHL websites/Interior Schemes\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes 2>&1)",
+      "Bash(cd \"/Users/mahirhaque/Documents/Coding/GHL websites/Interior Schemes\" && npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes --name interior-schemes 2>&1)",
+      "Bash(rm \"/Users/mahirhaque/Documents/Coding/GHL websites/Interior Schemes/package.json\" && cd \"/Users/mahirhaque/Documents/Coding/GHL websites/Interior Schemes\" && npx create-next-app@latest interior-schemes --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --no-git --yes 2>&1)",
+      "Bash(ls:*)",
+      "Bash(cd \"/Users/mahirhaque/Documents/Coding/GHL websites/Interior Schemes\" && npm install framer-motion 2>&1)",
+      "Bash(tail:*)",
+      "Bash(curl:*)",
+      "Bash(echo:*)",
+      "Bash(grep LISTEN:*)",
+      "Bash(lsof:*)"
+    ]
+  }
+}
