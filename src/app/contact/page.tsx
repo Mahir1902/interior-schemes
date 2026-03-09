@@ -5,7 +5,7 @@ import AnimatedSection from '@/components/AnimatedSection';
 export const metadata: Metadata = {
   title: 'Contact',
   description:
-    "Get in touch with Interior Schemes — we'd love to discuss your design project.",
+    "Start your interior design journey with Interior Schemes. Contact our studio to discuss your residential or commercial design project anywhere in Australia — Sydney, Melbourne, Brisbane, and beyond.",
 };
 
 const contactDetails = [

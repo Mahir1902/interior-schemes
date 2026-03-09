@@ -10,7 +10,8 @@
       "Bash(curl:*)",
       "Bash(echo:*)",
       "Bash(grep LISTEN:*)",
-      "Bash(lsof:*)"
+      "Bash(lsof:*)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }

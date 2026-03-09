@@ -6,7 +6,7 @@ import CTASection from '@/components/CTASection';
 export const metadata: Metadata = {
   title: 'About',
   description:
-    'Learn about Interior Schemes — our story, philosophy, and approach to interior design.',
+    'Learn about Interior Schemes — an award-winning interior design studio based in Australia. Discover our story, philosophy, and approach to luxury residential and commercial design in Sydney, Melbourne, Brisbane and beyond.',
 };
 
 export default function AboutPage() {

@@ -6,7 +6,7 @@ import CTASection from '@/components/CTASection';
 export const metadata: Metadata = {
   title: 'Services',
   description:
-    'Explore our interior design services — residential, commercial, consultation, and full project management.',
+    'Expert interior design services across Australia — residential design, commercial spaces, design consultation, and complete project management serving Sydney, Melbourne, Brisbane and beyond.',
 };
 
 const services = [

@@ -6,7 +6,7 @@ import CTASection from '@/components/CTASection';
 export const metadata: Metadata = {
   title: 'Portfolio',
   description:
-    'Explore our portfolio of residential and commercial interior design projects across Australia.',
+    'Browse the Interior Schemes project portfolio — beautiful residential and commercial interior design across Australia, including Hampton style kitchens, marble bathrooms, and bespoke living spaces in Sydney, Melbourne, Brisbane and beyond.',
 };
 
 const allImages = [

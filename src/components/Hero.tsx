@@ -43,54 +43,49 @@ export default function Hero() {
             </span>
           </motion.div>
 
-          {/* Headline — staggered words */}
-          <div className="overflow-hidden mb-3">
-            <motion.h1
-              initial={{ y: 80, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
-              className="text-white leading-[0.88]"
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(3.5rem, 10vw, 7.5rem)',
-                fontWeight: 300,
-              }}
-            >
-              Transform
-            </motion.h1>
-          </div>
-          <div className="overflow-hidden mb-3">
-            <motion.h1
-              initial={{ y: 80, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.68, ease: [0.22, 1, 0.36, 1] }}
-              className="leading-[0.88]"
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(3.5rem, 10vw, 7.5rem)',
-                fontWeight: 300,
-                color: 'var(--teal-light)',
-                fontStyle: 'italic',
-              }}
-            >
-              Your
-            </motion.h1>
-          </div>
-          <div className="overflow-hidden mb-8">
-            <motion.h1
-              initial={{ y: 80, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 1, delay: 0.81, ease: [0.22, 1, 0.36, 1] }}
-              className="text-white leading-[0.88]"
-              style={{
-                fontFamily: 'var(--font-display)',
-                fontSize: 'clamp(3.5rem, 10vw, 7.5rem)',
-                fontWeight: 300,
-              }}
-            >
-              Space
-            </motion.h1>
-          </div>
+          {/* Headline — single h1 with staggered word spans */}
+          <h1
+            style={{
+              fontFamily: 'var(--font-display)',
+              fontSize: 'clamp(3.5rem, 10vw, 7.5rem)',
+              fontWeight: 300,
+            }}
+          >
+            <span className="block overflow-hidden mb-3">
+              <motion.span
+                initial={{ y: 80, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
+                className="block text-white leading-[0.88]"
+              >
+                Transform
+              </motion.span>
+            </span>
+            <span className="block overflow-hidden mb-3">
+              <motion.span
+                initial={{ y: 80, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.68, ease: [0.22, 1, 0.36, 1] }}
+                className="block leading-[0.88]"
+                style={{
+                  color: 'var(--teal-light)',
+                  fontStyle: 'italic',
+                }}
+              >
+                Your
+              </motion.span>
+            </span>
+            <span className="block overflow-hidden mb-8">
+              <motion.span
+                initial={{ y: 80, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ duration: 1, delay: 0.81, ease: [0.22, 1, 0.36, 1] }}
+                className="block text-white leading-[0.88]"
+              >
+                Space
+              </motion.span>
+            </span>
+          </h1>
 
           {/* Subheading */}
           <motion.p
