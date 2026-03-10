@@ -11,7 +11,16 @@
       "Bash(echo:*)",
       "Bash(grep LISTEN:*)",
       "Bash(lsof:*)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npx tsc:*)",
+      "Skill(playwright-cli)",
+      "Bash(npx playwright-cli:*)",
+      "Read(//usr/local/bin/**)",
+      "Bash(npm list -g --depth=0)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(npx playwright:*)",
+      "Bash(node:*)"
     ]
   }
 }

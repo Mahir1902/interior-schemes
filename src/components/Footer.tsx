@@ -83,7 +83,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Interior Schemes. All rights reserved.
           </p>
           <p className="text-white/20 text-xs" style={{ fontFamily: 'var(--font-body)' }}>
-            Crafted with care
+            Crafted with care by WebLab Solutions
           </p>
         </div>
       </div>
